@@ -1,0 +1,1 @@
+https://www.figma.com/design/xwvUXpkFR8vSdAN27iafbM/Музыкальный-плеер?node-id=0-1&t=0A7GpXkkB31Z5hjV-0
