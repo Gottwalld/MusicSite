@@ -1,0 +1,140 @@
+body {
+  background-image: url(../img/Space_with_stars.jfif);
+  background-size: contain;
+}
+
+header {
+  width: 1300px;
+  height: 990px;
+}
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 120px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.logo-nav {
+  margin-right: 70px;
+  width: 53px;
+  height: 80px;
+}
+
+.text-nav {
+  font-size: 18px;
+  font-family: Istok Regular;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 25.91px;
+}
+
+.kenia-music-text {
+  width: 412px;
+  height: 264px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 150px;
+  font-size: 150px;
+  font-family: "kenia";
+  line-height: 1;
+}
+
+.istok-text {
+  display: block;
+  margin: 0px;
+  margin-top: 160px;
+  padding: 0px;
+  width: 290px;
+  height: 63px;
+  top: 730px;
+  left: 122px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Istok Regular;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.79px;
+  text-align: left;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 70px;
+  gap: 300px;
+}
+
+.phone_block {
+  height: 600px;
+}
+
+.phone-img {
+  width: 500px;
+  height: 888.01px;
+}
+
+.cable {
+  position: relative;
+  transform: translate(+50px, -160px);
+  z-index: -1;
+}
+
+main {
+  width: 1368px;
+  height: 990px;
+  background-color: #d53005;
+  padding: 0px;
+  margin: 0px;
+}
+
+#Music {
+  width: 84px;
+  height: 35px;
+  padding-top: 83px;
+  margin-left: 122px;
+  font-family: Karla;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35.07px;
+  text-align: left;
+}
+
+@font-face {
+  font-family: "Istok Regular";
+  src: url("../fonts/istok/istok_regular.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/istok/istok_regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/istok/istok_regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/istok/istok_regular.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/istok/istok_regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/istok/istok_regular.svg#istok_regular") format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: "Kenia";
+  src: url("../fonts/kenia/kenia.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/kenia/kenia.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/kenia/kenia.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/kenia/kenia.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/kenia/kenia.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/kenia/kenia.svg#kenia")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
