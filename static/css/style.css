@@ -218,7 +218,8 @@ main {
   display: flex;
   flex-direction: row;
   gap: 0px;
-  margin-top: 10s0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .left-list-store {
@@ -278,30 +279,98 @@ main {
   text-align: center;
 }
 
-.store-left-content-text2{
+.store-left-content-text2 {
   width: 430px;
   font-family: "Montserrat Regular";
-font-size: 18px;
-font-weight: 400;
-line-height: 21.94px;
-text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: center;
 }
 
-.mac-img{
+.mac-img {
   width: 1000px;
   position: relative;
   transform: translate(-35px);
 }
 
-.text-store-all{
+.text-store-all {
   width: 300px;
   position: relative;
   transform: translate(-70px);
 }
 
-.last-version-player-text{
-  color:#000000;
+.last-version-player-text {
+  color: #000000;
   text-decoration: underline;
+}
+
+.footer-page {
+  width: 1368px;
+  height: 600px;
+  background: linear-gradient(180deg, #d53005 0%, #000000 4.01%);
+}
+
+.footer-3lists {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 120px;
+  margin-left: 390px;
+  margin-right: 20px;
+  font-family: Montserrat Light;
+  font-size: 16px;
+}
+
+.footer-3lists li {
+  width: 290px; /* Фиксированная ширина для каждого элемента */
+}
+
+.first-list-footer {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.second-list-footer {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.third-list-footer {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-list-text-main {
+  font-family: "Montserrat SemiBold";
+  font-size: 20px;
+}
+
+.footer-logo {
+  width: 140px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.last-list {
+  margin-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  font-family: Montserrat Light;
 }
 
 @font-face {
